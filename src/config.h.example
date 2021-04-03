@@ -1,0 +1,18 @@
+//
+// Created by Alex Coulcher
+//
+
+#ifndef DR1NKER_CONFIG_H
+#define DR1NKER_CONFIG_H
+
+const char *ssid                = "";
+const char *password            = "";
+const char* mqttServerAddress   = "192.168.1.50";
+String mqttTopic                = "h0me/dr1nker";
+
+const char* ntpServer           = "uk.pool.ntp.org";
+const char* timezoneInfo        = "GMT+0BST-1,M3.5.0/01:00:00,M10.5.0/02:00:00";
+
+int maxPumpTime                 = 1000 * 5; /* 5 seconds */
+
+#endif //DR1NKER_CONFIG_H
