@@ -2,6 +2,7 @@
 CMakeListsPrivate.txt
 cmake-build-*/ 
 
+.vscode/
 .idea/
 
 src/config.h
